@@ -13,7 +13,7 @@ Python --Version
 git --version (Para identificar la version del git)
 Git crea una carpeta oculta cuando se ejecuta.
 git init - inicializa git.- solo una vez por cada repositorio.
-git add. - empaqueta todo el contenido.
+git add . - empaqueta todo el contenido.
 git commit -m "IAG344 v1" - comando para subir los cambios con el nombre del cambio.
 ```
 ## 🤖Comandos Github
