@@ -1,0 +1,38 @@
+/* estilo para toda la web */
+
+*{
+    margin: 0;/* quitar las margenes a toda la pagina */
+    padding: 0; /* quitar los espacios en blanco */
+
+}
+
+.header {
+    background: #111827; /* color de fondo  */
+    color: white;
+    padding: 16px 24px; /* espacio interno  */
+    display: flex; /* Logo y menun de la fila */
+    align-items: center; /* centrar verticalmente */
+    justify-content: space-between; /* espacio entre logo y menu, izquierda y derecha  */
+}
+
+/* estilo titulo */
+.nombre{
+    font-size: 22px; /* tamano de letra en prixeles */
+}
+
+/* enlaces del menu */
+
+.nav-links a{
+    color: white; /* color de letra  */
+    text-decoration: none; /* quitar subrayado  */
+    margin-left: 16px; /* espacio entre enlaces  */
+    opacity: 0.85; /* opacidad del texto */
+}
+
+.nav-links a:hover{
+    opacity: 1; /* opacidad al pasar el mouse  */
+    text-decoration: underline; /* subrayado al pasar el mouse  */
+    color:aquamarine; /* color al pasar el mouse  */
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 5px;
+}
