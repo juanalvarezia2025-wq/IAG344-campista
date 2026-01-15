@@ -23,9 +23,10 @@ pip list - Verifica las librerias instaladas en el equipo para el proyecto
 ![alt text](image-3.png)
 
 ```
+```
 git branch -M main
 git remote add origin https://github.com/juanalvarezia2025-wq/IAG344-campista.git
 git push -u origin main
 ```
-
-![alt text](image-4.png)
+### Desactivar entorno Virtual de Python
+```deactivate```
