@@ -42,3 +42,28 @@ def process_excel(path):
        ws[f"B{row}"].value, 
        ws[f"C{row}"].value
        ) # Une el nombre y apellido en las columnas B y C y lo guarda en la columna E
+
+    wb.save(path) # Guarda los cambios en el archivo Excel
+
+def proccess_excel_safe(path):
+    try:
+        process_excel(path)
+        return True, "Procesado exitosamente"
+    except PermissionError:
+        return (
+            False, 
+            "Error de permiso: No se puede acceder al archivo.\n" 
+            "Por favor, cierre el archivo si está abierto e intente nuevamente."
+        )
+    except KeyError:
+        return (
+            False, 
+            "Error de clave: La hoja 'Datos' no se encontró en el archivo.\n" 
+            "Por favor, verifique el archivo e intente nuevamente."
+        )
+    except Exception as e:
+        return (
+            False, 
+            f"Error inesperado: {str(e)}\n" 
+            "Por favor, verifique el archivo e intente nuevamente."
+        )

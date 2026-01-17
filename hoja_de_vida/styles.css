@@ -1,0 +1,17 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Color de fondo de la columna izquierda */
+.bg-primary {
+    background-color: #2c4c6e !important;
+    
+}
+
+.roun{
+    border-radius: 20px;
+}
+
+/* .h5{
+    background-color: var(--bs-primary);
+} */
