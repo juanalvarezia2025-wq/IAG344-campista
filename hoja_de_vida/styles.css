@@ -15,3 +15,11 @@
 /* .h5{
     background-color: var(--bs-primary);
 } */
+
+/* .progress {
+   background-color: rgba(255, 255, 255, 0.2);
+} */
+
+.text-primary {
+    color: #3498bd !important;
+}
